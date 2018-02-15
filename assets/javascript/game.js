@@ -1,7 +1,7 @@
 // GLOBAL VARIABLES
 // -------------------------------------------------------------
 // Arrays and Variables for holding data
-var wordOptions = ["jazz", "funny", "bookworm", "student","sleepy","vacation", "abyss"];
+var wordOptions = ["rose", "tulip", "carnation", "daisy","dandelion","edelweiss", "hibiscus", "iris", "lily","orchid","violet","sunflower"];
 var selectedWord ="";
 var lettersinWord=[];
 var numBlanks = 0;
@@ -81,7 +81,7 @@ function roundComplete(){
     // Check if user won
     if(lettersinWord.toString()== blanksAndSuccesses.toString()){
         winCount++;
-        alert("You Won!");
+        alert("Yay!!! You Won!");
 
         // Update the win counter in the HTML
         document.getElementById("winCounter").innerHTML = winCount;
@@ -92,7 +92,7 @@ function roundComplete(){
     // Check if user lost
     else if (guessesLeft == 0) {
         lossCount++;
-        alert("You lost!");
+        alert("You lost, better luck next time");
 
         //Update the HTML
         document.getElementById("lossCounter").innerHTML = lossCount;

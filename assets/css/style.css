@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
+#Name{
+    font-size: 30px;
+}
+.jumbotron{
+    background-color: black;
+    font-size: 24px;
+    color:teal;
+}
